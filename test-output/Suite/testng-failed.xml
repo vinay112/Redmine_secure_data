@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="WebApplication.Listen"/>
+  </listeners>
+  <test thread-count="5" name="Execution(failed)">
+    <classes>
+      <class name="WebApplication.HomePageTest">
+        <methods>
+          <include name="getclose"/>
+          <include name="planding"/>
+          <include name="basepagenavigation"/>
+          <include name="urlcode"/>
+          <include name="getevalidate"/>
+          <include name="pgetlog"/>
+          <include name="datadrive"/>
+        </methods>
+      </class> <!-- WebApplication.HomePageTest -->
+    </classes>
+  </test> <!-- Execution(failed) -->
+</suite> <!-- Failed suite [Suite] -->
